@@ -1,6 +1,6 @@
 👋 Hi, I’m @Ajao-Victor
-- 👀 I’m interested in learning new things in the coding world daily
-- 🌱 I’m currently learning Data analytics with python
+- 👀 I’m always interested in learning new things in the coding world
+- 🌱 I’m currently a full (PERN) Stack website developer 
 - 💞️ I’m looking to collaborate on whatever innovative and creative ideas and projects you might have at any point in time
 - 📫 How to reach me https://wa.me/7037512219?text=
 -let's code out things spectacular!
