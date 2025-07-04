@@ -24,8 +24,20 @@ I'm a passionate Software Developer specializing in full stack website developme
 - **fol app:** Innovative solutions for modern users and learners of website developing.
 - **folCommerce app:** A full-featured e-commerce platform.
 - **FolConnect app:** Connecting people, ideas, and businesses.
+- Robot App:** for teaching ReactJS
+- Robofriends:** for teaching ReactJS and ReduxJS
+- check out my repository list for a lot more
 
 *(Want to know more? Check out my repositories below!)*
+- [Folconnect](https://github.com/Ajao-Victor/CodeAlpha_folConnect)
+- [folcommerce](https://github.com/Ajao-Victor/CodeAlpha_folCommerce)
+- [fol app](https://github.com/Ajao-Victor/Fol)
+- [Hulu Interphase](https://github.com/Ajao-Victor/hulu-interphase)
+- [robot app](https://github.com/Ajao-Victor/RobotApp-React)
+- [Printiv Interphase app](https://github.com/Ajao-Victor/printiv)
+- [Robofriends](https://github.com/Ajao-Victor/Robot-Friends)
+
+some of my repos are majorly for teaching web developing enthusiasts
 
 ---
 
