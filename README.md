@@ -1,6 +1,6 @@
-# Hi there, I'm Ajao Victor 👋
+# Hi there, I'm Ajao Victor 
 
-**Full Stack Web Developer | JavaScript Enthusiast**
+**Full Stack Web Developer | JavaScript | Tyescript **
 
 ---
 
@@ -13,8 +13,8 @@ I'm a passionate Software Developer specializing in full stack website developme
 ### 🛠️ Tech Stack
 
 - **Languages & Markup:** JavaScript, HTML5, CSS3
-- **Frontend:** React, Redux, Bootstrap
-- **Backend:** Node.js, Express.js
+- **Frontend:** React,NextJS, Redux, Bootstrap
+- **Backend:** Node.js, Express.js, NestJS
 - **Database:** PostgreSQL
 
 ---
