@@ -4,7 +4,7 @@
 
 **Full Stack Software Engineer | Web Development | Open Source Contributor**
 
-[LinkedIn](https://www.linkedin.com/in/victor-ajao-970771253/) • [GitHub](https://github.com/Ajao-Victor) • [Email](mailto:your.email@example.com)
+[LinkedIn](https://www.linkedin.com/in/victor-ajao-970771253/) • [GitHub](https://github.com/Ajao-Victor) • [Email](mailto:victoroluwatimileyin3@gmail.com.com)
 
 [![GitHub followers](https://img.shields.io/github/followers/Ajao-Victor?style=social)](https://github.com/Ajao-Victor)
 [![GitHub User's stars](https://img.shields.io/github/stars/Ajao-Victor?style=social)](https://github.com/Ajao-Victor)
@@ -108,7 +108,7 @@ I'm always interested in discussing:
 **Reach out to me on:**
 - **LinkedIn:** [victor-ajao-970771253](https://www.linkedin.com/in/victor-ajao-970771253/)
 - **GitHub:** [@Ajao-Victor](https://github.com/Ajao-Victor)
-- **Email:** [Contact](mailto:your.email@example.com)
+- **Email:** [Contact](mailto:victoroluwatimileyin3@gmail.com.com)
 
 ---
 
@@ -122,6 +122,6 @@ Check out my pinned repositories for recent projects and contributions:
 
 <div align="center">
 
-**Thanks for visiting! I'm always open to collaboration, feedback, and new opportunities. Let's build something great together! 🚀**
+**Thanks for visiting! I'm always open to collaboration, feedback, and new opportunities. Let's build something great together! **
 
 </div>
