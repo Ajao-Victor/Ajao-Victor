@@ -37,7 +37,7 @@ I'm a **results-driven Enterprise Architect** and **Full Stack Engineer** specia
 
 ---
 
-## 🏆 Enterprise Portfolio: Tier-1 Projects
+##  Enterprise Portfolio: Tier-1 Projects
 
 ### **Tier 1: Production Enterprise Systems**
 
@@ -120,14 +120,14 @@ Prisma | JWT | Docker
 Enterprise healthcare platform with HIPAA-aligned architecture for patient management, appointments, and medical records.
 
 **Medical Features:**
-- 👨‍⚕️ Doctor profiles with specializations and availability
-- 📋 Patient registration & comprehensive medical history
-- 📅 Appointment scheduling with calendar integration
-- 💊 Prescription management & medication tracking
-- 📊 Patient vitals dashboard
-- 🔒 Encrypted medical records storage
-- 📞 Staff communication system
-- 💼 Billing & insurance integration
+-  Doctor profiles with specializations and availability
+-  Patient registration & comprehensive medical history
+-  Appointment scheduling with calendar integration
+-  Prescription management & medication tracking
+-  Patient vitals dashboard
+-  Encrypted medical records storage
+-  Staff communication system
+-  Billing & insurance integration
 
 **Security & Compliance:**
 - HIPAA-aligned data encryption
@@ -151,13 +151,13 @@ JWT Authentication | Encryption | Docker
 Sophisticated marketplace API connecting service providers with customers, featuring real-time bidding and provider matching.
 
 **Marketplace Features:**
-- 📝 Job posting & management
-- 🔍 Smart provider matching algorithm (location, skills, ratings)
-- 💬 Real-time messaging between customers & providers
-- ⭐ Dynamic rating & review system
-- 💰 Escrow payment handling
-- 📊 Provider analytics dashboard
-- 🔔 Real-time notifications
+-  Job posting & management
+-  Smart provider matching algorithm (location, skills, ratings)
+-  Real-time messaging between customers & providers
+-  Dynamic rating & review system
+-  Escrow payment handling
+-  Provider analytics dashboard
+-  Real-time notifications
 
 **Authentication & Security:**
 - Phone OTP-based registration
@@ -381,11 +381,11 @@ Committed to staying at the cutting edge of software engineering:
 ## 🚀 Professional Availability
 
 **I'm interested in:**
-- 🏢 **Senior Backend Engineer / Tech Lead** roles at growth-stage companies
-- 🏗️ **Enterprise Architect** positions designing large-scale systems
-- 💼 **CTO/VP Engineering** roles building technical teams and strategy
-- 🤝 **Open-source leadership** positions and core maintainer roles
-- 🎓 **Technical advisor** for startups and scale-ups
+-  **Senior Backend Engineer / Tech Lead** roles at growth-stage companies
+-  **Enterprise Architect** positions designing large-scale systems
+-  **CTO/VP Engineering** roles building technical teams and strategy
+-  **Open-source leadership** positions and core maintainer roles
+-  **Technical advisor** for startups and scale-ups
 
 **Ideal environments:**
 - Fintech, healthcare, SaaS, or enterprise software companies
@@ -408,13 +408,13 @@ I'm passionate about discussing enterprise architecture, system design, open-sou
 
 ## 🔗 Key Resources
 
-- 📂 [Complete Repository Portfolio](https://github.com/Ajao-Victor?tab=repositories)
-- 🏆 [Enterprise Projects Showcase](https://github.com/Ajao-Victor?tab=repositories&type=source)
-- 💰 [Fintech Architecture: JustXend Backend](https://github.com/Ajao-Victor/JustXend-Backend)
-- 🏢 [B2B SaaS: AjiCore Platform](https://github.com/Ajao-Victor/AJICOR_CORE)
-- 🏥 [Healthcare System: Tonash Hospital](https://github.com/Ajao-Victor/Tonash-Hospital)
-- 💼 [Marketplace API: RelaxApp](https://github.com/Ajao-Victor/RelaxApp)
-- 🤖 [AI Integration: FolBot](https://github.com/Ajao-Victor/FolBot)
+-  [Complete Repository Portfolio](https://github.com/Ajao-Victor?tab=repositories)
+-  [Enterprise Projects Showcase](https://github.com/Ajao-Victor?tab=repositories&type=source)
+-  [Fintech Architecture: JustXend Backend](https://github.com/Ajao-Victor/JustXend-Backend)
+-  [B2B SaaS: AjiCore Platform](https://github.com/Ajao-Victor/AJICOR_CORE)
+-  [Healthcare System: Tonash Hospital](https://github.com/Ajao-Victor/Tonash-Hospital)
+-  [Marketplace API: RelaxApp](https://github.com/Ajao-Victor/RelaxApp)
+-  [AI Integration: FolBot](https://github.com/Ajao-Victor/FolBot)
 
 ---
 
