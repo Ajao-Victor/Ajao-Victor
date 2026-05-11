@@ -395,13 +395,13 @@ Committed to staying at the cutting edge of software engineering:
 
 ---
 
-## 📫 Let's Connect
+##  Let's Connect
 
 I'm passionate about discussing enterprise architecture, system design, open-source, and building the next generation of scalable systems.
 
 **Reach out:**
 - **LinkedIn:** [victor-ajao-970771253](https://www.linkedin.com/in/victor-ajao-970771253/)
-- **GitHub:** [@Ajao-Victor](https://github.com/Ajao-Victor) (700+ followers, 50+ repositories)
+- **GitHub:** [@Ajao-Victor](https://github.com/Ajao-Victor) 
 - **Email:** [victoroluwatimileyin3@gmail.com](mailto:victoroluwatimileyin3@gmail.com)
 
 ---
