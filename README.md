@@ -15,18 +15,18 @@
 
 ---
 
-## 👋 About Me
+##  About Me
 
 I'm a **results-driven Enterprise Architect** and **Full Stack Engineer** specializing in designing and implementing **production-grade, globally-scalable systems** that power fintech platforms, healthcare enterprises, and SaaS marketplaces. With 5+ years of hands-on experience, I've architected systems handling **millions of daily transactions**, mentored 20+ engineers, and delivered 15+ enterprise applications.
 
 ### What I Do
-- 🏗️ **Enterprise Architecture** — Design microservices systems with event-driven patterns, handling 10K+ concurrent users
-- 🔄 **System Design** — Build distributed transaction systems, real-time ledgers, and financial processors
-- 💰 **Fintech Expertise** — Multi-currency wallets, payment processing, ledger reconciliation, compliance
-- 🏥 **Healthcare Systems** — HIPAA-aligned patient management, appointment scheduling, medical records
-- 🤖 **AI Integration** — LLM chatbots, intelligent automation, real-time analytics
-- 🔐 **Security Architecture** — OAuth2, JWT, RBAC, rate limiting, encryption, audit trails
-- 📈 **Performance Optimization** — Database tuning (sub-50ms queries), caching strategies, load balancing
+-  **Enterprise Architecture** — Design microservices systems with event-driven patterns, handling 10K+ concurrent users
+-  **System Design** — Build distributed transaction systems, real-time ledgers, and financial processors
+-  **Fintech Expertise** — Multi-currency wallets, payment processing, ledger reconciliation, compliance
+-  **Healthcare Systems** — HIPAA-aligned patient management, appointment scheduling, medical records
+-  **AI Integration** — LLM chatbots, intelligent automation, real-time analytics
+-  **Security Architecture** — OAuth2, JWT, RBAC, rate limiting, encryption, audit trails
+-  **Performance Optimization** — Database tuning (sub-50ms queries), caching strategies, load balancing
 
 ### Specializations
 - **Backend Mastery:** NestJS, Express, Node.js (event-driven, async-first architecture)
@@ -56,13 +56,13 @@ A sophisticated multi-currency banking platform processing real-time transaction
 - **Monitoring:** Custom logging, error tracking, performance metrics
 
 **Financial Operations:**
-- 💳 Multi-currency wallet provisioning (USD, EUR, GBP, NGN with live FX conversion)
-- 🏦 Virtual IBAN generation for fiat on-ramps
-- 💸 Atomic transaction processing with rollback safety (transfers, withdrawals, deposits)
-- 📊 Real-time ledger system with double-entry bookkeeping
-- 🔐 Audit trails for all financial operations (immutable logging)
-- 📈 Settlement reconciliation with variance detection
-- 💰 Admin analytics dashboard (revenue, transaction volume, user metrics)
+-  Multi-currency wallet provisioning (USD, EUR, GBP, NGN with live FX conversion)
+-  Virtual IBAN generation for fiat on-ramps
+-  Atomic transaction processing with rollback safety (transfers, withdrawals, deposits)
+-  Real-time ledger system with double-entry bookkeeping
+-  Audit trails for all financial operations (immutable logging)
+-  Settlement reconciliation with variance detection
+-  Admin analytics dashboard (revenue, transaction volume, user metrics)
 
 **Security & Compliance:**
 - Rate limiting (per-IP, per-user, per-endpoint)
