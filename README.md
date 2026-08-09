@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Tier‑1 Enterprise Architect | Full Stack Engineer | System Design Specialist**
+**Tier‑1 Enterprise Architect | Senior Full‑Stack Engineer | System Design Specialist**
 
 *Designing and delivering production-grade systems that scale to millions of transactions — microservices, fintech, healthcare, and AI.*
 
@@ -19,118 +19,90 @@
 
 I am a Tier‑1 Enterprise Architect and Senior Full‑Stack Engineer focused on designing resilient, secure, and observable systems for fintech, healthcare, and enterprise SaaS. I design production architectures, lead delivery, and mentor engineering teams to ship reliable software at scale.
 
-Core strengths: system design, distributed transactions, observability, security-first architecture, and operational excellence.
+Core strengths: system design, distributed transactions, observability, security‑first architecture, operational excellence, and a production-minded frontend stack.
 
 ### What I Do
 - Enterprise Architecture — microservices, event-driven platforms, bounded contexts
 - System Design — distributed transactions, real-time ledgers, high-throughput processing
+- Frontend Engineering — React, TypeScript, Next.js, Vite, performance tuning and UI architecture
 - Fintech — wallets, payment rails, reconciliation, regulatory compliance
-- Healthcare — HIPAA‑aware architectures, encrypted records, auditable workflows
+- Healthcare — HIPAA-aware architectures, encrypted records, auditable workflows
 - AI Integration — LLM-driven agents, embeddings, and analytics pipelines
 - Security — OAuth2, JWT, RBAC, encryption, hardened input validation
-- Performance — query-level optimization, caching, load balancing for low-latency SLAs
 
 ### Specializations
 - Backend: NestJS, Node.js, TypeScript, SOLID & DDD
+- Frontend: React (Hooks, Suspense), Next.js/SSR, Vite, TypeScript, Redux/Zustand, Tailwind, MUI
 - Databases: PostgreSQL (partitioning, indexing), Prisma, TypeORM
 - Messaging: Redis, BullMQ, event streaming
-- Real-time: WebSockets, Socket.io
+- Real-time: Socket.io, WebSockets
 - DevOps: Docker, CI/CD (GitHub Actions), Prometheus/Grafana
 
 ---
 
-## Enterprise Portfolio — Tier‑1 Projects
+## Portfolio Overview — All repositories on my profile
 
-I lead architecture and core engineering for production systems. Below are the headline Tier‑1 projects that demonstrate production readiness, security, and scale.
+Below is a curated, comprehensive list of repositories on my GitHub profile with a short description and link. It captures enterprise systems, full‑stack applications, learning projects, and utilities.
 
-### JustXend Backend — Enterprise Fintech Platform
-Status: Production
+- Project-AEGIS-Sentinel — Live clinical event sentinel; real‑time metabolic/DDI screening built on Ontomorph Digital Twin (NestJS, React, PostgreSQL). https://github.com/Ajao-Victor/Project-AEGIS-Sentinel
+- Project-KLC — Full‑stack church management & member tracking (React + Vite, NestJS, Prisma/Postgres, WhatsApp integration). https://github.com/Ajao-Victor/Project-KLC
+- Tonash-Hospital — Healthcare management system (HIPAA‑aware patient records, scheduling, prescriptions). https://github.com/Ajao-Victor/Tonash-Hospital
+- CodeAlpha_folConnect — Real‑time conferencing & collaboration (React, Node.js, Socket.io). https://github.com/Ajao-Victor/CodeAlpha_folConnect
+- CodeAlpha_folCommerce — E‑commerce storefront and backend (Node.js, Express, PostgreSQL, JWT). https://github.com/Ajao-Victor/CodeAlpha_folCommerce
+- Fol — Learning platform and demo app (React, Node.js, Express, PostgreSQL). https://github.com/Ajao-Victor/Fol
+- Printiv — Print order management & processing (React, Node.js). https://github.com/Ajao-Victor/printiv
+- Robot-Friends — Redux-patterns demo and educational project (React, Redux). https://github.com/Ajao-Victor/Robot-Friends
+- RobotApp-React — React component patterns and examples. https://github.com/Ajao-Victor/RobotApp-React
+- safe-mcp — Python utilities / experiments. https://github.com/Ajao-Victor/safe-mcp
+- server-creation — Node.js/Express starter and examples. https://github.com/Ajao-Victor/server-creation
+- hulu-interphase — UI showcase focusing on advanced React UI patterns. https://github.com/Ajao-Victor/hulu-interphase
+- activity-plan, aritmethicTable, Budget-Tracking-Site, gpa-calculator, new-table, table-trial, Trial, udacity — assorted demo and learning projects. (See full list on my profile: https://github.com/Ajao-Victor?tab=repositories)
 
-Highlights:
-- Modular NestJS architecture, Prisma + PostgreSQL, BullMQ for settlement, Redis cache
-- Multi-currency wallets, virtual IBANs, atomic transactions with rollback safety
-- Double-entry ledger, audit trails, settlement reconciliation, admin analytics
-- Security: JWT/Passport, rate limiting, input sanitization, encryption-at-rest
-
-Tech: NestJS | PostgreSQL | Prisma | Redis | BullMQ | Docker | Swagger
-
----
-
-### Project KLC — Full‑Stack Church Management Platform (Tier‑1)
-Status: Active / Deployable
-
-Project KLC is a full-stack, production-capable application for church administration, member management, attendance tracking, and communications automation. It’s built with a modern TypeScript stack and engineered for transactional integrity and extensibility.
-
-Technical highlights:
-- Frontend: React + Vite + TypeScript — component-driven, responsive UI, client-side routing, typed state
-- Backend: NestJS (TypeScript) — modular services, controllers, and Swagger API docs; role-based access control
-- Data: Prisma ORM + PostgreSQL — strongly typed schema, migrations, relational modeling for members, attendance, events, and contributions
-- Messaging & Integrations: WhatsApp (notifications/communications), email, webhooks for third-party integrations
-- Deployment: Docker + docker‑compose for local/dev; environment-driven config and CI-friendly scripts
-- Observability & Quality: structured logging, request tracing, unit & integration tests, and API docs
-
-Why Tier‑1: Transactional guarantees for attendance and giving flows, tenant-safe data modeling, and API-first extensibility for integrations and analytics.
-
-Repository: https://github.com/Ajao-Victor/Project-KLC
+If you want any of these promoted into Tier‑1 or Tier‑2 sections with expanded technical writeups (architecture, schemas, key endpoints), tell me which ones and I will expand their descriptions and add repo‑specific README improvements.
 
 ---
 
-### Project AEGIS — Live Clinical Event Sentinel (Tier‑1)
-Status: Hackathon → Clinical pilot-ready
+## Tiering & Highlights
 
-AEGIS is a real-time clinical sentinel and metabolic/DDI screening microservice built on the Ontomorph Digital Twin Platform. It streams clinical telemetry and evaluates rules to surface urgent events during active patient care.
+I classify projects by production readiness and business impact:
 
-Technical highlights:
-- Frontend: React + Vite + Tailwind CSS — real-time dashboard, lab-event injector for demos
-- API & Rules Engine: NestJS — event orchestration, threshold evaluation, and incident dispatch
-- Persistence: PostgreSQL + TypeORM — strict audit trails, typed entities for clinical incidents
-- Integration: Ontomorph DTP SDK (OAuth2) for Digital Twin telemetry and clinical context
-- Security & Compliance: least-privilege integration, encrypted storage of PHI in sandbox/pilot environments
+- Tier‑1 (Enterprise / Production-ready): systems designed for scale, security and operational excellence. Examples: JustXend (Fintech architecture referenced across portfolio), Project‑KLC (full‑stack deployable), Project‑AEGIS (clinical sentinel), Tonash‑Hospital (healthcare platform).
 
-Why Tier‑1: Real‑time rule evaluation with auditable incident recording and a production-minded architecture suitable for clinical pilots and integrations.
+- Tier‑2 (Production web applications / productized): Fol, folConnect, folCommerce, Printiv — user-facing web applications with production features and integrations.
 
-Repository: https://github.com/Ajao-Victor/Project-AEGIS-Sentinel
+- Tier‑3 (Learning, experiments, patterns): Robot‑Friends, RobotApp‑React, small demos and utilities used for exploration, teaching, and prototyping.
 
 ---
 
-## Tier‑2 & Selected Applications
+## Frontend Expertise (expanded)
 
-A selection of production web applications and learning projects with clear production or showcase value.
+I take frontend engineering seriously — not just UI but application architecture, performance, and maintainability:
+- TypeScript-first component design and strict typing across shared contracts (API client models, form schemas)
+- Component architecture: atomic components, container/presenter patterns, hooks + custom hook libraries
+- Performance: code‑splitting, lazy loading, memoization, image optimization, bundle analysis
+- State: Redux (Thunk/Saga), Zustand, Context API for isolated concerns
+- Styling: Tailwind CSS, SCSS, Material UI, Styled Components
+- Testing: React Testing Library, Jest, Cypress E2E
+- Accessibility & UX: semantic HTML, keyboard navigation, ARIA patterns
 
-- folConnect — real‑time conferencing & collaboration (React, Node.js)
-- folCommerce — e‑commerce with checkout & Stripe integration (Next.js, Node.js)
-- Fol — interactive learning platform (React, Node.js, PostgreSQL)
-- Printiv — print management system (React, Node.js)
-- Hulu Interphase — UI showcase and component patterns (React)
-
-(Full portfolio: https://github.com/Ajao-Victor?tab=repositories)
-
----
-
-## Technical Expertise (Condensed)
-- Languages: TypeScript, JavaScript, SQL, Java
-- Frameworks: NestJS, Express, React, Next.js
-- Databases: PostgreSQL, Prisma, TypeORM
-- Messaging: Redis, BullMQ; Real-time: Socket.io
-- Testing: Jest, Cypress; CI/CD: GitHub Actions
-- Infra: Docker, monitoring with Prometheus/Grafana
+If you want, I can add a short “Frontend patterns” section with code examples (custom hooks, a typed API client, or a sample layout system).
 
 ---
 
-## Impact & Metrics
-- 10+ production applications across fintech, healthcare, and SaaS
-- Systems designed to handle millions of transactions and thousands of concurrent users
-- Significant performance gains from query optimization and caching strategies
+## How I can help / Work with me
+
+- Architecture reviews and ADRs for new systems
+- Building production microservices with observability and SLOs
+- Full‑stack implementation & deployment (CI/CD + infra)
+- Mentorship and technical leadership for engineering teams
 
 ---
 
-## Development Philosophy
-Security-first, test-driven, and architecture-led engineering: DDD, SOLID, automated testing, and observability by default.
+## Next steps I suggest
 
----
-
-## Professional Availability
-Open to Senior Backend Engineer / Tech Lead / Enterprise Architect roles, advisory engagements, and open-source leadership.
+1. Choose 3–5 repos you want highlighted as Tier‑1 and I will expand their entries with architecture diagrams, key models, and a short quickstart.
+2. Provide screenshots or architecture diagrams you’d like included (I can also produce ASCII diagrams or recommend a simple diagram flow).
+3. I can add badges (CI, license, coverage) and a CONTRIBUTORS/CONTRIBUTING template across selected repos.
 
 ---
 
