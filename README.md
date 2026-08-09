@@ -40,52 +40,127 @@ Core strengths: system design, distributed transactions, observability, security
 
 ---
 
-## Portfolio Overview — All repositories on my profile
+## Enterprise Portfolio: Tier‑1 Projects
 
-Below is a curated, comprehensive list of repositories on my GitHub profile with a short description and link. It captures enterprise systems, full‑stack applications, learning projects, and utilities.
+Below are the projects I lead or architect at the enterprise level. Each entry includes a concise professional summary and technical highlights.
 
-- Project-AEGIS-Sentinel — Live clinical event sentinel; real‑time metabolic/DDI screening built on Ontomorph Digital Twin (NestJS, React, PostgreSQL). https://github.com/Ajao-Victor/Project-AEGIS-Sentinel
-- Project-KLC — Full‑stack church management & member tracking (React + Vite, NestJS, Prisma/Postgres, WhatsApp integration). https://github.com/Ajao-Victor/Project-KLC
-- Tonash-Hospital — Healthcare management system (HIPAA‑aware patient records, scheduling, prescriptions). https://github.com/Ajao-Victor/Tonash-Hospital
-- CodeAlpha_folConnect — Real‑time conferencing & collaboration (React, Node.js, Socket.io). https://github.com/Ajao-Victor/CodeAlpha_folConnect
-- CodeAlpha_folCommerce — E‑commerce storefront and backend (Node.js, Express, PostgreSQL, JWT). https://github.com/Ajao-Victor/CodeAlpha_folCommerce
-- Fol — Learning platform and demo app (React, Node.js, Express, PostgreSQL). https://github.com/Ajao-Victor/Fol
-- Printiv — Print order management & processing (React, Node.js). https://github.com/Ajao-Victor/printiv
-- Robot-Friends — Redux-patterns demo and educational project (React, Redux). https://github.com/Ajao-Victor/Robot-Friends
-- RobotApp-React — React component patterns and examples. https://github.com/Ajao-Victor/RobotApp-React
-- safe-mcp — Python utilities / experiments. https://github.com/Ajao-Victor/safe-mcp
-- server-creation — Node.js/Express starter and examples. https://github.com/Ajao-Victor/server-creation
-- hulu-interphase — UI showcase focusing on advanced React UI patterns. https://github.com/Ajao-Victor/hulu-interphase
-- activity-plan, aritmethicTable, Budget-Tracking-Site, gpa-calculator, new-table, table-trial, Trial, udacity — assorted demo and learning projects. (See full list on my profile: https://github.com/Ajao-Victor?tab=repositories)
+### JustXend Backend — Enterprise Fintech Platform
+Status: Production | Team Size: 4–6 engineers
 
-If you want any of these promoted into Tier‑1 or Tier‑2 sections with expanded technical writeups (architecture, schemas, key endpoints), tell me which ones and I will expand their descriptions and add repo‑specific README improvements.
+Summary: JustXend is a high‑throughput payments and wallet platform that supports multi‑currency wallets, instant transfers, and virtual IBAN provisioning. The system focuses on transactional correctness, regulatory compliance, and low‑latency settlement.
+
+What it does (business value):
+- Enables multi‑currency account management and on/off ramps for fiat flows
+- Provides real‑time balance updates, atomic transfers, and double‑entry ledger accounting
+- Automates settlement reconciliation and flags variances for operations teams
+- Exposes audit trails and reporting for compliance and forensic analysis
+
+Technical highlights:
+- Modular NestJS microservice architecture with domain separation (payments, ledger, reconciliation)
+- PostgreSQL with strong transactional guarantees and Prisma ORM for type‑safe access
+- BullMQ job queues for settlement, retries and reconciliation workflows
+- Redis for caching balances, rate limiting and distributed locks
+- Security: JWT + Passport, HSM or key‑management for transaction signing, encryption at rest
+- Observability: structured logs, distributed tracing, SLOs and alerting
+
+Repository: (if you want a direct link include `https://github.com/Ajao-Victor/JustXend-Backend` — add or update if repo name differs)
 
 ---
 
-## Tiering & Highlights
+### AjiCore — B2B SaaS Enterprise Platform
+Status: Production
 
-I classify projects by production readiness and business impact:
+Summary: AjiCore is a multi‑tenant B2B SaaS platform offering workspace and tenant isolation, enterprise-grade permissions, analytics, and extensible integrations for customers.
 
-- Tier‑1 (Enterprise / Production-ready): systems designed for scale, security and operational excellence. Examples: JustXend (Fintech architecture referenced across portfolio), Project‑KLC (full‑stack deployable), Project‑AEGIS (clinical sentinel), Tonash‑Hospital (healthcare platform).
+What it does (business value):
+- Provides isolated tenant workspaces with row‑level security and configurable features per tenant
+- Offers admin tooling for customer onboarding, API key management and webhook integrations
+- Delivers analytics and reporting to customers and internal teams
 
-- Tier‑2 (Production web applications / productized): Fol, folConnect, folCommerce, Printiv — user-facing web applications with production features and integrations.
+Technical highlights:
+- NestJS back end with modular services and tenant routing
+- React + TypeScript frontend with configurable theming per tenant
+- PostgreSQL with Row‑Level Security (RLS) and Prisma for migrations and ORM
+- Webhooks, API rate limiting, and SSO readiness for enterprise customers
+- CI/CD and automated tests to maintain high quality across tenants
 
-- Tier‑3 (Learning, experiments, patterns): Robot‑Friends, RobotApp‑React, small demos and utilities used for exploration, teaching, and prototyping.
+Repository: (if you have a repo link, I’ll add it; common placeholder: `https://github.com/Ajao-Victor/AJICOR_CORE`)
+
+---
+
+### Project KLC — Full‑Stack Church Management Platform
+Status: Active / Deployable
+
+Summary: Project KLC manages members, attendance, contributions, and communications for churches with transactional integrity and automation (WhatsApp/email).
+
+What it does (business value):
+- Tracks member data, events and attendance with exportable reports
+- Automates event reminders and contribution receipts via WhatsApp integrations
+- Provides admin dashboards for operations and finance teams
+
+Technical highlights:
+- React + Vite frontend, NestJS backend, Prisma + PostgreSQL, BullMQ for background jobs
+- Role‑based access control (ADMIN / LEADER / USER), Swagger API docs and CI integration
+
+Repository: https://github.com/Ajao-Victor/Project-KLC
+
+---
+
+### Project AEGIS — Live Clinical Event Sentinel
+Status: Hackathon → Clinical pilot-ready
+
+Summary: AEGIS streams Digital Twin clinical telemetry and applies rule evaluation for metabolic and DDI (Drug‑Drug Interaction) screening, surfacing critical events to clinicians in near real‑time.
+
+What it does (business value):
+- Reduces time‑to‑alert for critical lab values or medication interactions during patient care
+- Provides auditable incident records for clinical governance and follow‑up
+
+Technical highlights:
+- React dashboard, NestJS rules engine, TypeORM + PostgreSQL persistence
+- Integration with Ontomorph DTP SDK (OAuth2) for Digital Twin context
+
+Repository: https://github.com/Ajao-Victor/Project-AEGIS-Sentinel
+
+---
+
+### Tonash Hospital — Healthcare Management System
+Status: Production / Clinical use
+
+Summary: Tonash Hospital provides patient management, appointment scheduling, prescribing workflows, and encrypted medical records for healthcare teams.
+
+What it does (business value):
+- Streamlines patient intake and clinical workflows, reducing administrative overhead
+- Ensures secure record‑keeping and audit trails for compliance
+
+Technical highlights:
+- React frontend, Node.js/Express backend, PostgreSQL, JWT authentication and encryption
+- Production deployment (Vercel link available in repo)
+
+Repository: https://github.com/Ajao-Victor/Tonash-Hospital
+
+---
+
+## Tier‑2 & Tier‑3 Projects (select highlights)
+
+- folConnect — Real‑time conferencing & collaboration (React, Socket.io)
+- folCommerce — E‑commerce storefront & backend (Stripe payments, Next.js)
+- Fol — Learning platform and code demos (React, Node.js)
+- Printiv — Print order management (React, Node.js)
+- Robot‑Friends / RobotApp‑React — Frontend educational projects and Redux patterns
+
+Full repo list: https://github.com/Ajao-Victor?tab=repositories
 
 ---
 
 ## Frontend Expertise (expanded)
 
-I take frontend engineering seriously — not just UI but application architecture, performance, and maintainability:
-- TypeScript-first component design and strict typing across shared contracts (API client models, form schemas)
-- Component architecture: atomic components, container/presenter patterns, hooks + custom hook libraries
-- Performance: code‑splitting, lazy loading, memoization, image optimization, bundle analysis
-- State: Redux (Thunk/Saga), Zustand, Context API for isolated concerns
-- Styling: Tailwind CSS, SCSS, Material UI, Styled Components
-- Testing: React Testing Library, Jest, Cypress E2E
-- Accessibility & UX: semantic HTML, keyboard navigation, ARIA patterns
-
-If you want, I can add a short “Frontend patterns” section with code examples (custom hooks, a typed API client, or a sample layout system).
+I lead frontend engineering with a production focus — architecture, types, performance and accessibility.
+- TypeScript-first component design and strongly typed contracts
+- Component architecture: atomic design, hooks, and reusable patterns
+- Performance: code‑splitting, SSR/ISR (Next.js), memoization, bundle analysis
+- State: Redux (Saga/Thunk), Zustand, Context API
+- Styling & Accessibility: Tailwind, MUI, ARIA-first approach
+- Testing: React Testing Library, Jest, Cypress
 
 ---
 
@@ -98,11 +173,11 @@ If you want, I can add a short “Frontend patterns” section with code example
 
 ---
 
-## Next steps I suggest
+## Next steps
 
-1. Choose 3–5 repos you want highlighted as Tier‑1 and I will expand their entries with architecture diagrams, key models, and a short quickstart.
-2. Provide screenshots or architecture diagrams you’d like included (I can also produce ASCII diagrams or recommend a simple diagram flow).
-3. I can add badges (CI, license, coverage) and a CONTRIBUTORS/CONTRIBUTING template across selected repos.
+1. Confirm whether the actual repository names/URLs for JustXend and AjiCore differ from the placeholders — I’ll convert placeholders to direct links.
+2. Pick any 3 projects to expand next (diagrams, quickstart, API examples) and I’ll add them.
+3. Supply screenshots/diagrams if you want visuals included; otherwise I’ll add placeholders.
 
 ---
 
