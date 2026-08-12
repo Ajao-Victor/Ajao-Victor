@@ -173,13 +173,6 @@ I lead frontend engineering with a production focus — architecture, types, per
 
 ---
 
-## Next steps
-
-1. Confirm whether the actual repository names/URLs for JustXend and AjiCore differ from the placeholders — I’ll convert placeholders to direct links.
-2. Pick any 3 projects to expand next (diagrams, quickstart, API examples) and I’ll add them.
-3. Supply screenshots/diagrams if you want visuals included; otherwise I’ll add placeholders.
-
----
 
 ## Let's Connect
 - LinkedIn: https://www.linkedin.com/in/victor-ajao-970771253/
